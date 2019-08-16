@@ -12,3 +12,28 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+// MY CODE STARTS HERE
+
+@mobile: ~'(max-width: 500px)';
+
+ @media @mobile {
+     .nav-and-h1 {
+        display: flex;
+        flex-direction: column;
+
+         h1 {
+             display: flex;
+         } // closes H1
+
+            nav {
+                 display: flex;
+                 flex-direction: row;
+                 width: 800%;
+           } // closes NAV
+                
+    } // closes NAV AND H1
+    
+}// closes MEDIA QUERIE
+
+
